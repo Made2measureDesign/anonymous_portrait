@@ -9,7 +9,13 @@ const Socials = () => {
   const { theme } = useThemeUI()
   return social ? (
     <>
-      <Styled.h3>Socials</Styled.h3>
+      <Styled.h3
+        sx={{
+        color: '#BE5FD9',
+        }}
+      >
+      Socials
+      </Styled.h3>
       <Styled.ul sx={{ listStyle: 'none', p: 0, m: 0 }}>
         {social.map(({ url }) => (
           <Styled.li
@@ -22,14 +28,14 @@ const Socials = () => {
             <SocialIcon
               url={url}
               bgColor='transparent'
-              fgColor={"white"}
-              fgColor={theme.colors.text}
+              fgColor={"#F20775"}
+              fgColor={"#0367A6"}
             />
              <SocialIcon
               url={'https://www.instagram.com/anonymous_portrait/'}
               bgColor='transparent'
-              fgColor={"white"}
-              fgColor={theme.colors.text}
+              fgColor={"#F20775"}
+              fgColor={"#F20775"}
             />
           </Styled.li>
         ))}

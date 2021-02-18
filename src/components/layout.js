@@ -37,6 +37,7 @@ const Layout = ({ children }) => {
         <main>{children}</main>
         <footer
           style={{
+            color: '#04D9D9',
             marginTop: `2rem`,
           }}
         >

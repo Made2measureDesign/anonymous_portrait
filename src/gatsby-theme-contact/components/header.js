@@ -3,7 +3,7 @@ import { Styled } from 'theme-ui'
 
 const Header = () => (
   <>
-    <Styled.h2>Get your portrait, send me your details!</Styled.h2>
+    <Styled.h4>Get your portrait, send me your details!</Styled.h4>
   </>
 )
 

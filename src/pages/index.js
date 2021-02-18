@@ -22,7 +22,12 @@ const IndexPage = () => (
           marginBottom: `1.45rem`
         }}
          /> */}
-    <Styled.h2>WELCOME TO ANONYMOUS PORTRAIT</Styled.h2>
+    <Styled.h3
+               sx={{
+                color: '',
+              }}
+    >WELCOME TO ANONYMOUS PORTRAIT
+    </Styled.h3>
     <Styled.h6
             sx={{
               marginBottom: `1.45rem`
@@ -30,7 +35,13 @@ const IndexPage = () => (
     > 
     <p>Why disclose your identity? </p>
     One of the most successful achievements of blockchain technology is to allow trustful interactions among anonymous parties. 
-    <p>Stay protected, own your data, be anonymous.</p>
+    <Styled.h6
+               sx={{
+                color: '#04D9D9',
+              }}
+    >
+    Stay protected, own your data, be anonymous.
+    </Styled.h6>
     </Styled.h6>
     <Styled.h4
             sx={{
@@ -40,26 +51,13 @@ const IndexPage = () => (
     How to get your portrait? 
     </Styled.h4>
     <Styled.h6>
-    Attach to this form a picture of yourself, well lite, in the angle you wish your portrait to be done (ideally you would be facing the camera for a symetric point, but up to you). Let me know what kind of style you wish to have in your portrait, in terms of disguise. 
-    </Styled.h6>
+    Attach to this form a well lit picture of yourself, in the angle you wish your portrait to be done. Be specific on any details that you would like included in the portrait. The more specific the better the result. Feel free to share any links!
+   </Styled.h6>
     <Styled.h6>
-    Your portrait is ideal for social media accounts, blogs, email address, PSN accounts or any other network where you would like to keep your anonimosity.
+    Whether you would like glasses, masks, blindfolds, or disguises I can provide any face covering to achieve the anonymous look. Use your portrait for social media accounts, blogs, email address, PSN accounts or any other network where you would like remain unknown. 
     </Styled.h6>
-    <Styled.h6>Contact me via instagram, Twitter or email for any queries. </Styled.h6>
+    <Styled.h6>I am available for contact through instagram, Twitter or email for any queries. </Styled.h6>
     <Form></Form>
-    {/* <Styled.h5
-      sx={{
-        p: 0,
-        mr: 100,
-        ml: 100,
-        justifyItems: "center",
-        justifyContent: "center",
-        position: 'center',
-      }}
-      >Your anonymous portraits will be your personalized profile picture that does not reveal your identity. Ideal for social media accounts, blogs, email address, PSN accounts or any other network where you would like to keep you anonimosity. 
-How to get your portrait?
-Send a picture of yourself, well lite, in the angle you wish your portrait to be done (ideally you would be facing the camera for a symetric point, but up to you). To the following email address: **anonymousportraitcrypto@gmail.com**
-</Styled.h5> */}
   </Layout>
 )
 

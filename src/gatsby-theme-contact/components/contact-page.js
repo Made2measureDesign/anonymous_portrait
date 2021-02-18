@@ -51,9 +51,10 @@ const ContactPage = () => (
           borderLeftColor: [null, null, 'muted'],
           mt: [3, null, 3],
           pt: [3, null, 0],
-          borderTop: ['1px solid', null, '2px solid'],
+          borderTop: ['1px solid', '1px solid', '2px solid'],
+          color: '#04D9D9',
 
-          borderTopColor: ['muted', null, null]
+          borderTopColor: [null, null, null]
         }}
       >
         {/* <Details /> */}

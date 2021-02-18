@@ -35,34 +35,64 @@ const FormInput = ({ ...props }) => {
       placeholder='Introduce your ETH Addresss'
       {...props}
     />
+     <Styled.h4
+        sx={{
+          gridArea: `details`,
+          p: [2, 2, 2],
+          borderLeft: [null, null, null],
+          borderLeftColor: [null, null, 'muted'],
+          mt: [3, null, 3],
+          pt: [3, null, 0],
+          borderTop: ['1px solid', '1px solid', '2px solid'],
+          color: '#F20775',
+
+          borderTopColor: [null, null, null]
+        }}
+      >
+        One way to get in touch with you
+      </Styled.h4>
     <LabeledInput
-      label='Your email address (optional)'
+      label='Your email address'
       type='email'
       optional
-      placeholder='Introduce your user name'
+      placeholder='Introduce your email'
       {...props}
     />
     <LabeledInput
-      label='Instagram Username (optional)'
+      label='Instagram Username'
       type='text'
       optional
       placeholder='Introduce your IG username to get instagram metion, and your portrait posted'
       {...props}
     />
     <LabeledInput
-      label='Twitter Username (optional)'
+      label='Twitter Username'
       type='text'
       optional
-      placeholder='Introduce your Twitter username'
+      placeholder='Introduce your Twitter username to get instagram metion, and your portrait posted'
       {...props}
     />
+     <div
+        sx={{
+          gridArea: `details`,
+          p: [2, 2, 2],
+          borderLeft: [null, null, null],
+          borderLeftColor: [null, null, 'muted'],
+          mt: [3, null, 3],
+          pt: [3, null, 0],
+          borderTop: ['1px solid', '1px solid', '2px solid'],
+          color: '#F20775',
+
+          borderTopColor: [null, null, null]
+        }}
+      ></div>
     <LabeledInput
       label='Tell me about your style'
       as={Textarea}
       required
       minLength={10}
       rows={5}
-      placeholder='Tell me some what would you like in your portrait, type of disguise (glasses, blindfold, mask...)'
+      placeholder='Tell me about what you would like in your portrait, type of disguise (glasses, blindfold, mask...)'
       {...props}
     />
     <Styled.h5
@@ -70,7 +100,7 @@ const FormInput = ({ ...props }) => {
                   marginBottom: `1rem`
                 }}
                 >
-    Attach your self portrait photo
+    Attach your portrait photo
     </Styled.h5>
     <Upload
       batch={false}
