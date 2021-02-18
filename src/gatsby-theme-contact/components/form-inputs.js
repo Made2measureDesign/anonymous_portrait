@@ -112,8 +112,8 @@ const FormInput = ({ ...props }) => {
       multiple={false}
       withCredentials={false}
       required
-      saveUrl={'https://demos.telerik.com/kendo-ui/service-v4/upload/save'}
-      removeUrl={'https://demos.telerik.com/kendo-ui/service-v4/upload/remove'}
+      saveUrl={'https://elastic-austin-cc151d.netlify.app/save'}
+      removeUrl={'https://elastic-austin-cc151d.netlify.app/remove'}
     />
   </>
 )
