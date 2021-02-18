@@ -44,7 +44,7 @@ const FormInput = ({ ...props }) => {
           mt: [3, null, 3],
           pt: [3, null, 0],
           borderTop: ['1px solid', '1px solid', '2px solid'],
-          color: '#F20775',
+          // color: '#F20775',
 
           borderTopColor: [null, null, null]
         }}
@@ -81,7 +81,7 @@ const FormInput = ({ ...props }) => {
           mt: [3, null, 3],
           pt: [3, null, 0],
           borderTop: ['1px solid', '1px solid', '2px solid'],
-          color: '#F20775',
+          // color: '#F20775',
 
           borderTopColor: [null, null, null]
         }}
