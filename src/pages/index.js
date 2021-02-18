@@ -4,7 +4,7 @@ import React from "react"
 import { jsx, Styled } from 'theme-ui'
 
 import Layout from "../components/layout"
-import Image from "../components/image"
+// import Image from "../components/image"
 import SEO from "../components/seo" 
 import Form from "../gatsby-theme-contact/components/contact-page"
 

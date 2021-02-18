@@ -2,9 +2,9 @@ import React from 'react'
 
 const SuccessMessage = () => (
   <>
-    <h2>Mensaje recibido</h2>
+    <h2>Message Received</h2>
     <p>
-      Gracias, hemos recibido su mensaje y lo revisaremos lo antes posible.
+      Thank you for your message, we will get back to you within a week.
     </p>
   </>
 )

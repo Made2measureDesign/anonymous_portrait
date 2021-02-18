@@ -1,6 +1,8 @@
+/** @jsx jsx */
+
 import React from 'react'
 import * as ReactDOM from 'react-dom';
-import { Textarea, Input, Label, Styled } from 'theme-ui'
+import { jsx, Textarea, Input, Label, Styled } from 'theme-ui'
 import { Upload } from '@progress/kendo-react-upload';
 import '@progress/kendo-theme-material/dist/all.css';
 
@@ -36,7 +38,7 @@ const FormInput = ({ ...props }) => {
     <LabeledInput
       label='Your email address (optional)'
       type='email'
-      required
+      optional
       placeholder='Introduce your user name'
       {...props}
     />
@@ -63,7 +65,13 @@ const FormInput = ({ ...props }) => {
       placeholder='Tell me some what would you like in your portrait, type of disguise (glasses, blindfold, mask...)'
       {...props}
     />
-    <Styled.h5>Attach your self portrait photo</Styled.h5>
+    <Styled.h5
+                sx={{
+                  marginBottom: `1rem`
+                }}
+                >
+    Attach your self portrait photo
+    </Styled.h5>
     <Upload
       batch={false}
       restrictions={{
@@ -73,6 +81,7 @@ const FormInput = ({ ...props }) => {
       defaultFiles={[]}
       multiple={false}
       withCredentials={false}
+      required
       saveUrl={'https://demos.telerik.com/kendo-ui/service-v4/upload/save'}
       removeUrl={'https://demos.telerik.com/kendo-ui/service-v4/upload/remove'}
     />
