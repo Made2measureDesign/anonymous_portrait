@@ -1,8 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Anonymous Portrait`,
+    description: `Why disclose your identity? 
+    One of the most successful achievements of blockchain technology is to allow trustful interactions among anonymous parties. Purchase one of the artworks, get your own anonymous portrait.Stay protected, own your data, be anonymous.`,
+    author: `@anonymous`,
     social: [
       {
         url: 'https://twitter.com/anonymousportr1',
