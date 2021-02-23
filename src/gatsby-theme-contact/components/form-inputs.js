@@ -103,10 +103,11 @@ const FormInput = ({ ...props }) => {
     Attach your portrait photo
     </Styled.h5>
     <Upload
+      type="file"
       batch={false}
       restrictions={{
         allowedExtensions: [ '.jpg', '.png' ],
-        maxFileSize: 5000000
+        maxFileSize: 3000000
       }}
       defaultFiles={[]}
       multiple={false}
